@@ -1,0 +1,45 @@
+powerful frontend toolkit with css and js...
+MObile first approach..
+components are available in css classes..
+jquery is dropped...----v5.0
+bootstrap icons..---v5.2
+new components available like canvas ---v5.2
+
+
+jquery and virtual dom dont work together,so bootstrap drop jquery..
+
+jquery removes make react friendly..
+
+jquery realdom..
+react virtual dom.so we use it together we face some issues. so 
+bootstrap drop jquery..
+
+they provide bootsrap separately for react....
+
+=============================================================
+
+use customize theme using sass
+
+first create saas folder in project---
+create scss file=====for ex:main.scss
+
+main.scss
+code:
+$primary:#ff6347;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//import must be last in code
+
+install sass live extension
+
+change setting json
+
+add extra info
+
+ "liveSassCompile.settings.formats":[
+    {
+"format": "compressed",
+"extensionName": ".min.css",  ======================>file extension
+"savePath": "/src/css"        ======================file path inside of source folder create css folder and inside the saas file
+    }
+  ]
