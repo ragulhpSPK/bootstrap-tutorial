@@ -11,13 +11,24 @@ function Bestoffers() {
   return (
     <section id="best" className="mb-5">
       <div className="text-center my-5 py-3">
-        <h2 className="display-5">
-          <i className="bi bi-search-heart text-primary"></i>Best offer of a
-          Week
+        <h2
+          className="display-5"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          <i className="bi bi-search-heart text-primary"></i>
+          Best offer of a Week
         </h2>
       </div>
       <Container>
-        <Row className="align-items-center">
+        <Row
+          className="align-items-center"
+          data-aos="zoom-out-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <Col md={7}>
             <Image
               src={phone}

@@ -27,7 +27,13 @@ function Mobilecards() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
-      <Card className="m-3">
+      <Card
+        className="m-3"
+        data-aos="flip-left"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+        data-aos-easing="linear"
+      >
         <Card.Img
           variant="top"
           src={require("../assets/redmi.jpg")}

@@ -6,7 +6,13 @@ function Contact() {
   return (
     <section id="detail" className="bg-light mt-5">
       <div className="text-center my-5 py-3">
-        <h2 className="display-5">
+        <h2
+          className="display-5"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
           Contact us for more details
           <i class="bi bi-chat-left-heart text-primary ms-2"></i>
         </h2>
